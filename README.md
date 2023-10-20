@@ -1,4 +1,4 @@
-# ONCVPSP-LDA-FR
+# ONCVPSP-LDA-FR-PDv0.4
 Latest version of the NC LDA FR pseudopotentials 
 
 This repository is the latest version of NC LDA FR pseudopotential.
