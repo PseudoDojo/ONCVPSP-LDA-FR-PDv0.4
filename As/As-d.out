@@ -1,5 +1,5 @@
 ONCVPSP  (Optimized Norm-Conservinng Vanderbilt PSeudopotential)
-scalar-relativistic version 4.0.1 06/04/2019
+relativistic version 4.0.1 03/01/2019
 
 
 While it is not required under the terms of the GNU GPL, it is
@@ -12,14 +12,14 @@ in any publication utilizing these pseudopotentials.
   As 33.00    5    3       3      both
 #
 #   n    l    f        energy (Ha)
-    1    0    2.00    -4.2992288E+02
-    2    0    2.00    -5.4548637E+01
-    2    1    6.00    -4.7883678E+01
-    3    0    2.00    -6.9639073E+00
-    3    1    6.00    -4.9028388E+00
-    3    2   10.00    -1.5028075E+00
-    4    0    2.00    -5.4031407E-01
-    4    1    3.00    -1.9651618E-01
+    1    0    2.00    -4.2978715D+02
+    2    0    2.00    -5.4525272D+01
+    2    1    6.00    -4.7424859D+01    -4.8765769D+01
+    3    0    2.00    -6.9614333D+00
+    3    1    6.00    -4.8410608D+00    -5.0261241D+00
+    3    2   10.00    -1.4915227D+00    -1.5183649D+00
+    4    0    2.00    -5.4018393D-01
+    4    1    3.00    -1.9313975D-01    -2.0351318D-01
 #
 # PSEUDOPOTENTIAL AND OPTIMIZATION
 # lmax
@@ -61,14 +61,14 @@ in any publication utilizing these pseudopotentials.
 
 Reference configufation results
   iterations    23
-  all-electron total energy (Ha)   -2.25775089D+03
+  all-electron total energy (Ha)   -2.25787208D+03
 
 Begin loop to  construct optimized pseudo wave functions
 and semi-local pseudopoentials for all angular momenta
 
-   Wellstate for l =  0  n =  7
-     eigenvalue =   4.1597
-     asymptotic potential =   4.6597
+   Wellstate for l =  0  n =  7 kap= -1
+     eigenvalue =   4.1598
+     asymptotic potential =   4.6598
      half-point radius =  3.6220
 
 Calculating optimized projector #   1
@@ -77,12 +77,12 @@ Calculating optimized projector #   1
 
     Constraint consistency test
       pswf0 val/der aewf val/der     diff
-        0.45011292    0.45011292   -2.20D-13
-       -0.34530717   -0.34530717   -1.49D-14
-       -0.09945286   -0.09945286    6.51D-15
-        1.52285814    1.52285814   -2.37D-13
+        0.45010598    0.45010598    1.35D-13
+       -0.34514205   -0.34514205    2.03D-14
+       -0.09985882   -0.09985882    8.58D-14
+        1.52353687    1.52353687    3.14D-13
 
-    Fraction of norm inside rc  0.452757
+    Fraction of norm inside rc  0.452580
     Optimizing pswf for qcut=   4.99 a_B^-1,  ecut=  12.46 Ha
     q_infinity defining residual KE= 20.00  (E_inf=  200.0 Ha)
     Residual kinetic energy error=  1.51D-04 Ha
