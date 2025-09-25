@@ -1,5 +1,5 @@
 # atsym z nc nv iexc psfile
-Ag 47 6 4 3 both
+Ag 47 6 4 -001012 both
 # n l f
 1 0 2.0
 2 0 2.0
