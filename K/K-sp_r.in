@@ -1,5 +1,5 @@
 # atsym z nc nv iexc psfile
-K 19 3 3 3 both
+K 19 3 3 -001012 both
 # n l f
 1 0 2.0
 2 0 2.0
